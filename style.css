@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#catImageContainer {
+    margin-top: 20px;
+}
+
+#catImageContainer img {
+    max-width: 100%;
+}
