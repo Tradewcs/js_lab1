@@ -1,4 +1,4 @@
-document.getElementById('addCat').addEventListener('click', getRandomCatImage);
+document.getElementsByTagName('button')[0].addEventListener('click', getRandomCatImage);
 document.getElementById('removeCat').onclick = removeCat;
 
 async function getRandomCatImage() {
