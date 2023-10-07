@@ -1,5 +1,5 @@
-document.getElementById('addCat').addEventListener('click', getRandomCatImage);    
-document.getElementById('removeCat').addEventListener('click', removeCat);
+document.getElementById('addCat').addEventListener('click', getRandomCatImage);
+document.getElementById('removeCat').onclick = removeCat;
 
 async function getRandomCatImage() {
     const catImageContainer = document.getElementById('catImageContainer');
